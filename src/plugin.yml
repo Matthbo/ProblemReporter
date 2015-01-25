@@ -1,0 +1,13 @@
+name: ProblemReporter
+main: matthbo.plugin.problemreporter.ProblemReporter
+version: 1.0
+commands:
+    problem:
+        description: Adds a message in the Stefan Help List
+        usage: /<command> <args>
+    problemlist:
+        description: Shows the ProblemList.txt in chat
+        usage: /<command>
+    clearproblemlist:
+        description: Clears ProblemList.exe
+        usage: /<command>
